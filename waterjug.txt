@@ -1,0 +1,87 @@
+from collections import deque
+
+# Input sizes of the jugs and the target
+def get_input():
+    while True:
+        try:
+            a = int(input('Enter size of jug 1: '))
+            b = int(input('Enter size of jug 2: '))
+            target = int(input('Enter required size: '))
+            if a <= 0 or b <= 0 or target < 0:
+                raise ValueError("Sizes must be positive integers.")
+            return a, b, target
+        except ValueError as e:
+            print(e)
+
+a, b, target = get_input()
+
+# Initial state of jugs
+initial = [0, 0]
+
+# Define the possible moves
+def fill_a(jug):
+    jugc = jug.copy()
+    jugc[0] = a
+    return jugc
+
+def fill_b(jug):
+    jugc = jug.copy()
+    jugc[1] = b
+    return jugc
+
+def empty_a(jug):
+    jugc = jug.copy()
+    jugc[0] = 0
+    return jugc
+
+def empty_b(jug):
+    jugc = jug.copy()
+    jugc[1] = 0
+    return jugc
+
+def a_to_b(jug):
+    jugc = jug.copy()
+    transfer_amount = min(jugc[0], b - jugc[1])
+    jugc[0] -= transfer_amount
+    jugc[1] += transfer_amount
+    return jugc
+
+def b_to_a(jug):
+    jugc = jug.copy()
+    transfer_amount = min(jugc[1], a - jugc[0])
+    jugc[1] -= transfer_amount
+    jugc[0] += transfer_amount
+    return jugc
+
+# List of possible moves
+moves = [fill_a, fill_b, empty_a, empty_b, a_to_b, b_to_a]
+
+# Initialize the BFS queue, visited set, and parent dictionary
+queue = deque([initial])
+visited = set()
+visited.add(tuple(initial))
+parent = {tuple(initial): None}
+path = ''
+
+# BFS to find the solution
+while queue:
+    curr = queue.popleft()
+    if target in curr:
+        # Reconstruct path
+        curr_tuple = tuple(curr)
+        while curr_tuple is not None:
+            path = str(curr_tuple) + ' -> ' + path
+            curr_tuple = parent[curr_tuple]
+        print('Solution path:')
+        print(path[:-4])  # Remove the last ' -> '
+        break
+    
+    for move in moves:
+        next_state = move(curr)
+        next_tuple = tuple(next_state)
+        if next_tuple not in visited:
+            visited.add(next_tuple)
+            queue.append(next_state)
+            parent[next_tuple] = tuple(curr)
+else:
+    print('No Solution')
