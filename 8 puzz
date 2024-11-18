@@ -1,0 +1,74 @@
+from collections import deque
+def mat():
+    mat = []
+    for i in range (3):
+        temp=input().split(" ") 
+        mat.append(temp)
+    return mat
+def printer (mat):
+    for i in mat:
+        for j in i:
+            print (j, end=" ")
+        print(" ")
+def posfind(mat):
+    l = []
+    for i in range(3):
+        for j in range(3):
+            if mat[i][j] == "0":
+                l.append(i)
+                l.append(j)
+                return l  # Added return statement to return the position
+
+def is_valid(mat, move):
+    position = posfind(mat)  # Changed 'Position' to 'position' to match the variable name
+    if move == "up" and position[0] > 0:
+        return True
+    elif move == "down" and position[0] < 2:
+        return True
+    elif move == "left" and position[1] > 0:
+        return True
+    elif move == "right" and position[1] < 2:
+        return True
+    else:
+        return False
+
+# The rest of the code remains unchanged
+def generate(mat, move):
+    position = posfind(mat)
+    row, col = position[0], position[1]
+    newmat = [list(row) for row in mat]
+    if move == "up":
+        newmat[row][col], newmat[row-1][col] = newmat[row-1][col], newmat[row][col]
+    elif move == "down":
+        newmat[row][col], newmat[row+1][col] = newmat[row+1][col], newmat[row][col]
+    elif move == "left":
+        newmat[row][col], newmat[row][col-1] = newmat[row][col-1], newmat[row][col]
+    elif move == "right":
+        newmat[row][col], newmat[row][col+1] = newmat[row][col+1], newmat[row][col]
+    return newmat
+
+def dfs(initial, goal):
+    visited = set()
+    stack = [initial]
+    while stack:
+        node = stack.pop()
+        if node == goal:
+            print("Goal state found")
+            printer(node)
+            return
+        visited.add(tuple(map(tuple, node)))
+        for move in ["up", "down", "left", "right"]:
+            if is_valid(node, move):
+                new_state = generate(node, move)
+                if tuple(map(tuple, new_state)) not in visited:
+                    print("Move: ", move)
+                    printer(new_state)
+                    print("\n")
+                    stack.append(new_state)
+    print("Goal state not reachable")
+
+print("Enter the initial state: ")
+initial = mat()  # Assuming mat() is defined elsewhere
+print("Enter the goal state: ")
+goal = mat()  # Assuming mat() is defined elsewhere
+dfs(initial, goal)
