@@ -15,18 +15,14 @@
 
 ### 📬 Connect with me
 
+<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/lejin-leo" target="blank">
-  <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" alt="lejinleo" height="30" width="40" />
-</a>
-<a href="https://www.instagram.com/lejin.leo?igsh=MXJvaGltN2JjbW53Yw==" target="blank">
-  <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/instagram.svg" alt="lejinleo" height="30" width="40" />
-</a>
+<a href="https://linkedin.com/in/lejin-leo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pranay nambisan" height="30" width="40" /></a>
+<a href="https://www.instagram.com/lejin.leo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_.pra_nay._" height="30" width="40" /></a>
 </p>
 
 ---
 
-### 💻 Languages and Tools
 
 ### 💻 Languages and Tools
 
