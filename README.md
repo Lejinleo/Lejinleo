@@ -41,19 +41,19 @@
     <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" width="40" height="40"/>
   </a>
   <a href="https://streamlit.io/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="80" height="40"/>
+    <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="80" height="40"/>
   </a>
   <a href="https://opencv.org/" target="_blank" rel="noreferrer">
     <img src="https://img.icons8.com/fluency/48/000000/opencv.png" alt="OpenCV" width="40" height="40"/>
   </a>
   <a href="https://librosa.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-librosa-a-python-package-for-music-and-audio-analysis-logo-shadow-tal-revivo.png" alt="Librosa" width="40" height="40"/>
+    <img src="https://raw.githubusercontent.com/librosa/librosa/main/docs/_static/logo.svg" alt="Librosa" width="40" height="40"/>
   </a>
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/>
   </a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.icons8.com/external-flat-juicy-fish/60/external-git-coding-and-development-flat-flat-juicy-fish.png" alt="Git" width="40" height="40"/>
+    <img src="https://img.icons8.com/color/48/git.png"  alt="Git" width="40" height="40"/>
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
     <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" width="40" height="40"/>
