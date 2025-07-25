@@ -28,20 +28,44 @@
 
 ### 💻 Languages and Tools
 
+### 💻 Languages and Tools
+
 <p align="left">
-  <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/pytorch.png" alt="PyTorch" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" width="40" height="40"/>
-  <img src="https://img.icons8.com/ios/50/streamlit.png" alt="Streamlit" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" width="40" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" width="40" height="40"/>
-  <img src="https://img.icons8.com/fluency/48/000000/opencv.png" alt="OpenCV" width="40" height="40"/>
-  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-librosa-a-python-package-for-music-and-audio-analysis-logo-shadow-tal-revivo.png" alt="Librosa" width="40" height="40"/>
-  <img src="https://img.icons8.com/external-flat-juicy-fish/60/external-git-coding-and-development-flat-flat-juicy-fish.png" alt="Git" width="40" height="40"/>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python" width="40" height="40"/>
+  </a>
+  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/pytorch.png" alt="PyTorch" width="40" height="40"/>
+  </a>
+  <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow" width="40" height="40"/>
+  </a>
+  <a href="https://streamlit.io/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="80" height="40"/>
+  </a>
+  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/fluency/48/000000/opencv.png" alt="OpenCV" width="40" height="40"/>
+  </a>
+  <a href="https://librosa.org/" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-librosa-a-python-package-for-music-and-audio-analysis-logo-shadow-tal-revivo.png" alt="Librosa" width="40" height="40"/>
+  </a>
+  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40" height="40"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/external-flat-juicy-fish/60/external-git-coding-and-development-flat-flat-juicy-fish.png" alt="Git" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3" width="40" height="40"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript" width="40" height="40"/>
+  </a>
 </p>
 
----
 
 
 ### 🔥 Project Highlights
